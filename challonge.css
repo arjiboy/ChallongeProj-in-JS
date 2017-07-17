@@ -1,0 +1,67 @@
+
+body{
+	background-color: rgb(52, 73, 94);
+	color: rgb(236, 240, 241);
+	font-family: Arial;
+	
+}
+.col-container{
+	display: table;
+	padding: 5px;
+	border: solid 2px white;
+	background-color: steelblue;
+	border-radius: 3px;
+}
+.col {
+	display: table-cell;
+}
+.item{
+	border:solid 2px black;
+	border-radius: 8px 0px 0px 8px;
+	background-color: rgb(149, 165, 166);
+	padding: 5px;
+	width: 180px;
+	color: floralwhite;
+}
+.change {
+	background-color: rgb(243, 156, 18);
+}
+.score{
+	border:solid 2px black;
+	border-radius: 0px 8px 8px 0px;
+	background-color: rgb(41, 128, 185);
+	padding: 5px 2px 5px 5px;
+	width: 20px;
+}
+.divider{
+	margin: 30px 0px 30px 20px;
+}
+.divider2 {
+	margin: 30px 10px 30px -10px;
+	padding: 0px;
+}
+.dashb {
+	display: inline-grid;
+	border: solid black 2px;
+	padding: 10px;
+	border-radius: 8px;
+	background-color: darkslategrey;
+}
+#gen {
+	margin: 20px 3px 3px 3px;
+}
+#reset {
+	margin: 3px 3px 3px 3px;
+}
+#rand{
+	margin: 3px 3px 10px 3px;
+}
+small {
+	font-style: italic;
+}
+.inputText {
+	margin-top: 10px;
+}
+#textArea {
+	resize: none;
+}

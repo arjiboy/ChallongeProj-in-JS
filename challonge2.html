@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Challonge Bracket Generator2</title>
+	<link rel="stylesheet" type="text/css" href="challonge.css">
+</head>
+<body>
+	<h1>Tournament Bracket Generator</h1>
+	<div class="col-container" id="cont">
+		<div class="col dashb">
+			<span class="inputText">Tournament Name</span>
+			<input type="text" class="input">
+			<span class="inputText">Teams/Players</span>
+			<textarea rows="12" class="input" id="textArea" placeholder="Please input 8 teams/players (max 12 characters)"></textarea>
+			<small>*1 team per line</small>
+			<button type="button" id="gen">Generate</button>
+			<button type="button" id="reset">Reset Bracket</button>
+			<button type="button" id="rand" disabled>Randomize Elims</button>
+		</div>
+		<div class="col">
+			<div class="divider">
+				<div class="item elim">arjiboy</div>
+				<div class="item elim">babiDee</div>
+			</div>
+			<div class="divider">
+				<div class="item elim">dugg-O</div>
+				<div class="item elim">checkMic</div>
+			</div>
+			<div class="divider">
+				<div class="item elim">elgee</div>
+				<div class="item elim">foxtrt</div>
+			</div>
+			<div class="divider">
+				<div class="item elim">greyjoy</div>
+				<div class="item elim">hollyfax</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="divider2">
+				<div class="score">  ></div>
+				<div class="score">  ></div>
+			</div>
+			<div class="divider2">
+				<div class="score">  ></div>
+				<div class="score">  ></div>
+			</div>
+			<div class="divider2">
+				<div class="score">  ></div>
+				<div class="score">  ></div>
+			</div>
+			<div class="divider2">
+				<div class="score">  ></div>
+				<div class="score">  ></div>
+			</div>			
+			
+		</div>
+		<div class="col">
+			<div class="divider">
+				<div class="item semi">arjiboy</div>
+				<div class="item semi">checkMic</div>
+			</div>
+			<div class="divider">
+				<div class="item semi">elgee</div>
+				<div class="item semi">greyjoy</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="divider2">
+				<div class="score"><small>< </small><small>></small></div>
+				<div class="score"><small>< </small><small>></small></div>				
+			</div>
+			<div class="divider2">
+				<div class="score"><small>< </small><small>></small></div>
+				<div class="score"><small>< </small><small>></small></div>				
+			</div>
+
+		</div>
+		<div class="col">
+			<div class="divider">
+				<div class="item fin">arjiboy</div>
+				<div class="item fin">greyjoy</div>
+			</div>		
+		</div>
+		<div class="col">
+			<div class="divider2">
+				<div class="score"><small>< </small><small>></small></div>
+				<div class="score"><small>< </small><small>></small></div>
+			</div>
+		</div>
+	</div>
+	<footer>
+			<small>~rg</small>
+		</footer>
+	<script src="challonge2.js" type="text/javascript"></script>
+</body>
+</html>
